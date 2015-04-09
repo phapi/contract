@@ -1,0 +1,27 @@
+{
+  "name": "phapi/contract",
+  "description": "Phapi Contract is a set of interfaces used by the Phapi framework",
+  "keywords": [
+    "interfaces", "phapi", "contract"
+  ],
+  "type": "framework",
+  "version": "1.0.0",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "homepage": "http://phapi.github.io",
+  "authors": [
+    {
+      "name": "Peter Ahinko",
+      "email": "peter@ahinko.se",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+  },
+  "autoload": {
+    "psr-4": {
+      "Phapi\\Contract\\": "src/Phapi/Contract/"
+    }
+  }
+}
