@@ -4,7 +4,6 @@
   "keywords": [
     "interfaces", "phapi", "contract"
   ],
-  "type": "framework",
   "version": "1.0.0",
   "minimum-stability": "stable",
   "license": "MIT",
