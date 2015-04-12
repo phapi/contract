@@ -1,8 +1,8 @@
 <?php
 
-namespace Phapi\Contract\Container;
+namespace Phapi\Contract\Di;
 
-use Phapi\Contract\Container;
+use Phapi\Contract\Di\Container;
 
 /**
  * Interface ContainerValidator
