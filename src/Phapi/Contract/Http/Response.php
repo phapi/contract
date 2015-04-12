@@ -13,7 +13,7 @@ use Psr\Http\Message\ResponseInterface;
  * @package  Phapi\Contract
  * @author   Peter Ahinko <peter@ahinko.se>
  * @license  MIT (http://opensource.org/licenses/MIT)
- * @link     https://github.com/ahinko/phapi
+ * @link     https://github.com/phapi/contract
  */
 interface Response extends ResponseInterface {
 

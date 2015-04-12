@@ -5,13 +5,15 @@ namespace Phapi\Contract\Di;
 use Phapi\Contract\Di\Container;
 
 /**
- * Interface ContainerValidator
+ * Interface Validator
+ *
+ * Interface for validators used by the Di Container
  *
  * @category Phapi
  * @package  Phapi\Contract
  * @author   Peter Ahinko <peter@ahinko.se>
  * @license  MIT (http://opensource.org/licenses/MIT)
- * @link     https://github.com/ahinko/phapi
+ * @link     https://github.com/phapi/contract
  */
 interface Validator {
 
