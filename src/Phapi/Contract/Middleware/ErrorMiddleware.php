@@ -1,6 +1,6 @@
 <?php
 
-namespace Phapi\Contract;
+namespace Phapi\Contract\Middleware;
 
 /**
  * Interface ErrorMiddleware

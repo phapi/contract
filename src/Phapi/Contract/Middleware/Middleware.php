@@ -1,6 +1,6 @@
 <?php
 
-namespace Phapi\Contract;
+namespace Phapi\Contract\Middleware;
 
 use Psr\Http\Message\ServerRequestInterface as RequestInterface;
 use Psr\Http\Message\ResponseInterface;
