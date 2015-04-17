@@ -2,8 +2,8 @@
 
 namespace Phapi\Contract\Middleware;
 
-use Phapi\Contract\Http\Request;
-use Phapi\Contract\Http\Response;
+use Psr\Http\Message\ServerRequestInterface as RequestInterface;
+use Psr\Http\Message\ResponseInterface;
 
 /**
  * Interface Middleware
@@ -43,11 +43,11 @@ interface Middleware {
      * ...
      * return $response;
      *
-     * @param Request $request
-     * @param Response $response
+     * @param RequestInterface $request
+     * @param ResponseInterface $response
      * @param callable $next
-     * @return Request
+     * @return ResponseInterface
      */
-    public function __invoke(Request $request, Response $response, callable $next = null);
+    public function __invoke(RequestInterface $request, ResponseInterface $response, callable $next = null);
 
 }
