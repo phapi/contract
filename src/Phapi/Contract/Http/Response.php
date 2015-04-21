@@ -18,18 +18,18 @@ use Psr\Http\Message\ResponseInterface;
 interface Response extends ResponseInterface {
 
 	/**
-	 * Get the unparsed/unserialized body. Returns
+	 * Get the unserialized body. Returns
 	 * an array with the content.
 	 *
 	 * @returns array
 	 */
-    public function getUnparsedBody();
+    public function getUnserializedBody();
 
     /**
-     * Creates a new instance with an unparsed/unserialized body.
+     * Creates a new instance with an unserialized body.
 	 *
 	 * @param array $body
      */
-    public function withUnparsedBody(array $body);
+    public function withUnserializedBody(array $body);
     
 }
