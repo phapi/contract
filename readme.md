@@ -1,5 +1,5 @@
 # Phapi Contract
-Set of interfaces uses by the Phapi framework.
+Set of contracts/interfaces uses by the Phapi framework.
 
 
 ## License
