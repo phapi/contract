@@ -2,8 +2,6 @@
 
 namespace Phapi\Contract\Di;
 
-use Phapi\Contract\Di\Container;
-
 /**
  * Interface Validator
  *
@@ -15,7 +13,8 @@ use Phapi\Contract\Di\Container;
  * @license  MIT (http://opensource.org/licenses/MIT)
  * @link     https://github.com/phapi/contract
  */
-interface Validator {
+interface Validator
+{
 
     /**
      * Set the Dependency Injection Container
@@ -34,5 +33,4 @@ interface Validator {
      * @return mixed
      */
     public function validate($value);
-
 }

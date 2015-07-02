@@ -21,7 +21,8 @@ use Psr\Http\Message\ResponseInterface;
  * @license  MIT (http://opensource.org/licenses/MIT)
  * @link     https://github.com/phapi/contract
  */
-interface Middleware {
+interface Middleware
+{
 
     /**
      * Process an incoming request and/or response.
@@ -49,5 +50,4 @@ interface Middleware {
      * @return ResponseInterface
      */
     public function __invoke(RequestInterface $request, ResponseInterface $response, callable $next = null);
-
 }

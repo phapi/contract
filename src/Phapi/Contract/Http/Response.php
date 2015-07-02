@@ -15,9 +15,10 @@ use Psr\Http\Message\ResponseInterface;
  * @license  MIT (http://opensource.org/licenses/MIT)
  * @link     https://github.com/phapi/contract
  */
-interface Response extends ResponseInterface {
+interface Response extends ResponseInterface
+{
 
-	/**
+    /**
 	 * Get the unserialized body. Returns
 	 * an array with the content.
 	 *
@@ -31,5 +32,4 @@ interface Response extends ResponseInterface {
 	 * @param array $body
      */
     public function withUnserializedBody(array $body);
-    
 }

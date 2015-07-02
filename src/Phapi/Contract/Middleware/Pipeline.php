@@ -14,7 +14,8 @@ namespace Phapi\Contract\Middleware;
  * @license  MIT (http://opensource.org/licenses/MIT)
  * @link     https://github.com/phapi/contract
  */
-interface Pipeline extends Middleware {
+interface Pipeline extends Middleware
+{
 
     /**
      * Add middleware to the pipe-line. Middleware should be called in the
@@ -28,5 +29,4 @@ interface Pipeline extends Middleware {
      * @param callable $middleware
      */
     public function pipe(callable $middleware);
-
 }

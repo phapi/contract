@@ -15,13 +15,13 @@ use Psr\Http\Message\ServerRequestInterface;
  * @license  MIT (http://opensource.org/licenses/MIT)
  * @link     https://github.com/phapi/contract
  */
-interface Request extends ServerRequestInterface {
+interface Request extends ServerRequestInterface
+{
 
-	/**
+    /**
 	 * Check if the request method is the same as the provided method.
 	 *
 	 * @param string $method
 	 */
     public function isMethod($method);
-
 }

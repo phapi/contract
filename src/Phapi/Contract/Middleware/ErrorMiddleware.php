@@ -22,6 +22,6 @@ namespace Phapi\Contract\Middleware;
  * @license  MIT (http://opensource.org/licenses/MIT)
  * @link     https://github.com/phapi/contract
  */
-interface ErrorMiddleware extends Middleware {
-
+interface ErrorMiddleware extends Middleware
+{
 }

@@ -19,7 +19,8 @@ namespace Phapi\Contract\Cache;
  * @license  MIT (http://opensource.org/licenses/MIT)
  * @link     https://github.com/phapi/contract
  */
-interface Cache {
+interface Cache
+{
 
     /**
      * Set/add something to the cache
@@ -55,5 +56,4 @@ interface Cache {
      * Flush cache
      */
     public function flush();
-
 }

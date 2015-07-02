@@ -16,7 +16,8 @@ use Phapi\Contract\Di\Container;
  * @license  MIT (http://opensource.org/licenses/MIT)
  * @link     https://github.com/phapi/contract
  */
-interface SerializerMiddleware extends Middleware {
+interface SerializerMiddleware extends Middleware
+{
 
     /**
      * Set the dependency injection container.
@@ -26,7 +27,7 @@ interface SerializerMiddleware extends Middleware {
      *
      * @param Container $container
      */
-	public function setContainer(Container $container);
+    public function setContainer(Container $container);
 
     /**
      * Register the mime types that the (de)serializer supports.
@@ -37,6 +38,5 @@ interface SerializerMiddleware extends Middleware {
      * Example:
      * $this->container['acceptTypes'] = array_merge($this->container['acceptTypes'], $this->mimeTypes);
      */
-	public function registerMimeTypes();
-
+    public function registerMimeTypes();
 }

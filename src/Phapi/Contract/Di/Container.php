@@ -16,7 +16,8 @@ use Phapi\Contract\Di\Validator;
  * @license  MIT (http://opensource.org/licenses/MIT)
  * @link     https://github.com/phapi/contract
  */
-interface Container extends \ArrayAccess {
+interface Container extends \ArrayAccess
+{
 
     /**
      * Add a validator that will validate during the binding
@@ -43,5 +44,4 @@ interface Container extends \ArrayAccess {
      * @return mixed
      */
     public function make($key);
-
 }
